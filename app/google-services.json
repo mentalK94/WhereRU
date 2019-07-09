@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665095062894",
+    "firebase_url": "https://whereru-7984e.firebaseio.com",
+    "project_id": "whereru-7984e",
+    "storage_bucket": "whereru-7984e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665095062894:android:591db853a7106cce",
+        "android_client_info": {
+          "package_name": "study.hskim.whereru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665095062894-mmvbrh9020movandtj438mav1ja5k7gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "study.hskim.whereru",
+            "certificate_hash": "32a02da3c2b35d17c2065983092d6aaafc86ec1e"
+          }
+        },
+        {
+          "client_id": "665095062894-tr6ktfhgp15s7vl6jclsbq15vc603a18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuo7e_pfLd2TbimlTa9jDvEsJ3O59S7HU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665095062894-tr6ktfhgp15s7vl6jclsbq15vc603a18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

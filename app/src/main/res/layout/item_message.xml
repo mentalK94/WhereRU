@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/messageItem_linearLayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/messageItem_linearLayout_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/messageItem_imageView_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:text="이름"
+            android:id="@+id/messageItem_textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="메세지"
+            android:id="@+id/messageItem_messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="4dp" />
+        <TextView
+            android:text="2018-11-29 17:33"
+            android:textSize="11dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/messageItem_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
